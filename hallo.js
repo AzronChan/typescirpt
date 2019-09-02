@@ -54,3 +54,7 @@ var chen = {
 // let john: person = {    //Property 'age' is missing in type '{ name: string; }' but required in type 'person'.
 //     name : 'li'
 // }
+//数组设置类型
+// 类型[] 表示法
+var arr = ['1', '2', 3, 4];
+arr[5] = 1;
